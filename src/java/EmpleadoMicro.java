@@ -36,11 +36,11 @@ public class EmpleadoMicro {
         this.Horario = Horario;
     }
 
-    public EmpleadoMicro getJefe() {
+    public EmpleadoMicro ObtenerJefe() {
         return Jefe;
     }
 
-    public void setJefe(EmpleadoMicro Jefe) {
+    public void AsignarJefe(EmpleadoMicro Jefe) {
         this.Jefe = Jefe;
     }
   
